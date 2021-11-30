@@ -9,6 +9,7 @@ function Card({ data }) {
                 <h3>{data.name}</h3>
                 <p>{data.subTitle}</p>
                 <p>{data.current}</p>
+                <p>{data.current}</p>
                 {/* {data.values.map((value, index) => <div key={index}>{value}</div>)} */}
             </div>
         </div>
